@@ -16,6 +16,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/public/supercake-transparent.webp" />
         <link rel="icon" href="/supercake-transparent.webp" sizes="any" />
+
       </head>
       <body suppressHydrationWarning={true}>{children}</body>
     </html>
