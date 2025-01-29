@@ -1,0 +1,188 @@
+{
+  "customers": [
+    {
+      "id": "c1",
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "phone": "555-0123",
+      "pets": [
+        {
+          "id": "p1",
+          "name": "Fluffy",
+          "species": "cat"
+        },
+        {
+          "id": "p2",
+          "name": "Fido",
+          "species": "dog"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Jane Smith",
+      "email": "jane.smith@email.com",
+      "phone": "555-0124",
+      "pets": [
+        {
+          "id": "p3",
+          "name": "Whiskers",
+          "species": "cat"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Emily Johnson",
+      "email": "emily.j@email.com",
+      "phone": "",
+      "pets": [
+        {
+          "id": "p4",
+          "name": "Tweety",
+          "species": "bird"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Mike Brown",
+      "email": "mike.brown@email.com",
+      "phone": "555-0126",
+      "pets": []
+    },
+    {
+      "id": "c5",
+      "name": "Sarah Davis",
+      "email": "sarah.davis@email.com",
+      "phone": "555-0127",
+      "pets": [
+        {
+          "id": "p5",
+          "name": "Bella",
+          "species": "dog"
+        },
+        {
+          "id": "p6",
+          "name": "Coco",
+          "species": "bird"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Robert Wilson",
+      "email": "robert.w@email.com",
+      "phone": "",
+      "pets": []
+    },
+    {
+      "id": "c7",
+      "name": "Linda Martinez",
+      "email": "linda.m@email.com",
+      "phone": "555-0129",
+      "pets": [
+        {
+          "id": "p7",
+          "name": "Snowball",
+          "species": "hamster"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "name": "James Lee",
+      "email": "james.lee@email.com",
+      "phone": "555-0130",
+      "pets": [
+        {
+          "id": "p8",
+          "name": "Max",
+          "species": "dog"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "name": "Barbara White",
+      "email": "barbara.w@email.com",
+      "phone": "",
+      "pets": [
+        {
+          "id": "p9",
+          "name": "Cheddar",
+          "species": "rat"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "name": "William Harris",
+      "email": "william.h@email.com",
+      "phone": "555-0132",
+      "pets": [
+        {
+          "id": "p10",
+          "name": "Lucky",
+          "species": "cat"
+        },
+        {
+          "id": "p11",
+          "name": "Buddy",
+          "species": "dog"
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "name": "Patricia Clark",
+      "email": "patricia.c@email.com",
+      "phone": "555-0133",
+      "pets": []
+    },
+    {
+      "id": "c12",
+      "name": "Christopher Lewis",
+      "email": "chris.lewis@email.com",
+      "phone": "",
+      "pets": [
+        {
+          "id": "p12",
+          "name": "Chirpy",
+          "species": "bird"
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "name": "Elizabeth Walker",
+      "email": "elizabeth.w@email.com",
+      "phone": "555-0135",
+      "pets": [
+        {
+          "id": "p13",
+          "name": "Squeaky",
+          "species": "hamster"
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "name": "David Hall",
+      "email": "david.hall@email.com",
+      "phone": "555-0136",
+      "pets": [
+        {
+          "id": "p14",
+          "name": "Shadow",
+          "species": "cat"
+        },
+        {
+          "id": "p15",
+          "name": "Rusty",
+          "species": "dog"
+        }
+      ]
+    }
+  ]
+}
