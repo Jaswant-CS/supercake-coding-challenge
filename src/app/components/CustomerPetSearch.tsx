@@ -18,7 +18,7 @@ interface Pet {
     species: string;
 }
 
-interface Customer {
+export interface Customer {
     id: string;
     name: string;
     email: string;
@@ -64,9 +64,7 @@ export default function CustomerPetSearch() {
     };
 
     useEffect(() => {
-        if (searchQuery) {
-            fetchCustomers();
-        }
+        fetchCustomers();
     }, [searchQuery]);
 
     const togglePopup = () => {
@@ -148,7 +146,7 @@ export default function CustomerPetSearch() {
 
 
             <div className="mt-4 bg-white p-4 rounded-lg shadow-sm">
-                <h3 className="text-md font-semibold mb-2">Search Results</h3>
+                <h3 className="text-md font-semibold mb-2">Customers Data</h3>
                 {loading ? (
                     <div className="space-y-3">
                         {[...Array(8)].map((_, i) => (
