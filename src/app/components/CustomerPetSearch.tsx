@@ -18,6 +18,8 @@ interface Pet {
     species: string;
 }
 
+
+
 export interface Customer {
     id: string;
     name: string;
@@ -107,12 +109,12 @@ export default function CustomerPetSearch() {
                                         <button
                                             key={name}
                                             onClick={() => togglePetSelection(value)}
-                                            className={`flex text-[14px]  h-[30px] flex-row items-center space-y-1 px-1 rounded-3xl text-md border  gap-[5px] justify-center   ${selectedPets.includes(value) ? "bg-blue-600 text-white" : "hover:bg-gray-100"
+                                            className={`flex text-[14px]  h-[30px] flex-row items-center space-y-1 px-1 rounded-3xl text-md border  gap-[5px] justify-center   ${selectedPets.includes(value) ? "bg-blue-600 text-white" : "hover:bg-gray-100 text-[#121D2C]"
                                                 }`}
                                         >
-                                            {Icon && <Icon className="w-4 h-4 text-[#848A93] text-[15px]" />}
+                                            {Icon && <Icon className="w-4 h-4  text-[15px]" />}
 
-                                            <span className="!m-0 p-0 text-[#121D2C]">{name}</span>
+                                            <span className="!m-0 p-0 ">{name}</span>
                                         </button>
                                     ))}
                                 </div>
