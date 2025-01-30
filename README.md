@@ -1,6 +1,22 @@
 # Supercake Coding Challenge
 
-TODO: Customize README to document your solution. Please pay attention to use correct spelling, grammar and formatting. Make the documentation easy to read and follow.
+Features
+
+# Search functionality:
+
+-> Users can search customer by name and pet by type.
+
+# Filtering options:
+
+-> Filter pets by dogs,cats,birds etc.
+
+# Customer details:
+
+-> View detailed information of customer, including pets breed, and description.
+
+# VIDEO :
+
+https://www.loom.com/share/748cad382eb545f5beca105cd579a002
 
 ## Getting Started
 
