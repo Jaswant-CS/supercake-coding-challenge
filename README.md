@@ -16,7 +16,7 @@ Features
 
 # VIDEO :
 
-https://www.loom.com/share/748cad382eb545f5beca105cd579a002
+https://www.loom.com/share/380bd81973844fcd95b642fdaf9b432e
 
 ## Getting Started
 
