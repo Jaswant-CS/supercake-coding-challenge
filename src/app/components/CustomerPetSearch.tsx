@@ -124,6 +124,8 @@ export default function CustomerPetSearch() {
                                         onClick={() => {
                                             setSelectedPets([]);
                                             setCustomers([]);
+                                            setSearchQuery('');
+                                            setPopoverOpen(false);
                                         }}
                                         className="px-5 py-3 font-medium border border-[#E0E8F2] rounded-[12px] hover:bg-gray-100 w-[50%]"
                                     >
