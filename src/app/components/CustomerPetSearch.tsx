@@ -95,7 +95,7 @@ export default function CustomerPetSearch() {
                     <div className="flex items-center ">
                         <Popover.Root open={popoverOpen} onOpenChange={setPopoverOpen}>
                             <Popover.Trigger asChild>
-                                <button onClick={togglePopup} className={`border px-3 h-[40px] rounded-[12px] flex items-center bg-white ${isExpanded ? "bg-[#E8EBF0] text-[#121D2C]" : ""
+                                <button onClick={togglePopup} className={`border px-3 h-[40px] rounded-[12px] flex items-center ${selectedPets.length > 0 ? 'bg-[#E8EBF0]' : 'bg-white'} ${isExpanded ? "bg-[#E8EBF0] text-[#121D2C]" : ""
                                     }`}>
                                     {selectedPets.length > 0
                                         ? `${selectedPets.length} selected`
@@ -157,30 +157,32 @@ export default function CustomerPetSearch() {
                     </div>
                 ) : error ? (
                     <p className="text-red-500">{error}</p>
-                ) : customers.length === 0 ? (
-                    <p className="text-gray-500">No customers found.</p>
-                ) : (
-                    <ul className="space-y-3">
-                        {customers.map((customer) => (
-                            <li key={customer.id} className="p-3 border rounded-lg shadow-sm">
-                                <h4 className="font-semibold">{customer.name}</h4>
-                                <p className="text-sm text-gray-500">{customer.email} • {customer.phone}</p>
-                                {customer.pets.length > 0 && (
-                                    <div className="mt-2 flex flex-wrap gap-2">
-                                        {customer.pets.map((pet) => (
-                                            <span
-                                                key={pet.id}
-                                                className="px-2 py-1 text-xs bg-gray-200 rounded-md"
-                                            >
-                                                {pet.name} ({pet.species})
-                                            </span>
-                                        ))}
-                                    </div>
-                                )}
-                            </li>
-                        ))}
-                    </ul>
-                )}
+                ) :
+                    customers.length === 0 ? (
+                        <p className="text-gray-500">No customers found.</p>
+                    ) :
+                        (
+                            <ul className="space-y-3">
+                                {customers.map((customer) => (
+                                    <li key={customer.id} className="p-3 border rounded-lg shadow-sm">
+                                        <h4 className="font-semibold">{customer.name}</h4>
+                                        <p className="text-sm text-gray-500">{customer.email} • {customer.phone}</p>
+                                        {customer.pets.length > 0 && (
+                                            <div className="mt-2 flex flex-wrap gap-2">
+                                                {customer.pets.map((pet) => (
+                                                    <span
+                                                        key={pet.id}
+                                                        className="px-2 py-1 text-xs bg-gray-200 rounded-md"
+                                                    >
+                                                        {pet.name} ({pet.species})
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        )}
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
             </div>
         </div >
     );
