@@ -87,7 +87,7 @@ export default function CustomerPetSearch() {
                             placeholder="Search by ID, name, email or phone"
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
-                            className="bg-white p-3 rounded-lg border w-[315px] me-3 h-[40px] focus:outline-none focus:shadow-[0_0_5px_#2981F4] ps-12 "
+                            className="bg-white p-3 rounded-lg border w-[315px] me-3 h-[40px] focus:outline-none focus:border-[#327AD9] focus:shadow-[0_0_0px_4px_#2981F440] ps-12 "
 
                         />
                     </div>
